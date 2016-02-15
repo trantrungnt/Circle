@@ -28,7 +28,8 @@ public class Circle {
             
             Calculate oCaluclate = new Calculate();            
             System.out.print("\nChu vi hinh tron co ban kinh " + r + " la: " + oCaluclate.calculateChuVi(r, pi));
-            System.out.println();
+            System.out.print("\nDien tich hinh tron co ban kinh " + r + " la: " + oCaluclate.caculateDienTich(r, pi));
+            System.out.println();                       
             
         }catch(Exception e)
         {
