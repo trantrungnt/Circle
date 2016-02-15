@@ -26,6 +26,10 @@ public class Circle {
             System.out.print("\nr=");
             r = Double.parseDouble(oBufferedReader.readLine());
             
+            Calculate oCaluclate = new Calculate();            
+            System.out.print("\nChu vi hinh tron co ban kinh " + r + " la: " + oCaluclate.calculateChuVi(r, pi));
+            System.out.println();
+            
         }catch(Exception e)
         {
             System.out.println(e.toString());
